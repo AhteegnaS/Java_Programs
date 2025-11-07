@@ -1,16 +1,17 @@
-package day2;
+package classes;
 
 public class Laptop {
-	int id;
+
+	int serialId;
 	String brand;
- void switchoff() {
-	 System.out.println("laptop is switced off");
- }
- void switchon() {
-	 System.out.println("laptop is switched on");
- }
- 
+	double cost;
+	
+	void switchOn() {
+		System.out.println("Laptop is switched on.");
+	}
+	void shutDown() {
+	System.out.println("Laptop is switched off");
 	
 }
 
-
+}
